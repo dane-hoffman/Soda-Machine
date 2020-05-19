@@ -8,15 +8,19 @@ namespace Soda_Machine_Proj
 {
     class Quarter : Coin
     {
+        
 
 
-
-        public Quarter(double Value, string name)
+        public Quarter()
         {
-            Value = 0.25;
+            this.Value = 0.25;
             this.name = "Quarter";
 
         }
 
+
+
     }
+
+
 }

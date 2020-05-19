@@ -11,5 +11,8 @@ namespace Soda_Machine_Proj
         public SodaMachine sodaMachine;
         public Customer customer;
 
+
     }
+
+
 }

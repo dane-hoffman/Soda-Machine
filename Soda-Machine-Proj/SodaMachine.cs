@@ -15,12 +15,23 @@ namespace Soda_Machine_Proj
 
         public SodaMachine()
         {
-            List<Coin> register = new List<Coin>
+            List<Coin> register = new List<Coin>()
             {
 
 
             }
 
+            List<Can> inventory = new List<Can>()
+            {
+
+
+            }
+
+
         }
+
+
     }
+
+
 }

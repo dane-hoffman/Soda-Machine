@@ -26,5 +26,9 @@ namespace Soda_Machine_Proj
         {
             this.cost = Cost;
         }
+
+
     }
+
+
 }
