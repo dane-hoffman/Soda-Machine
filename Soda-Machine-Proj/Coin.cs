@@ -10,7 +10,7 @@ namespace Soda_Machine_Proj
     public abstract class Coin
     {
        
-        private readonly double value;//field
+        protected double value;//field
         public double Value//property
         {
             get

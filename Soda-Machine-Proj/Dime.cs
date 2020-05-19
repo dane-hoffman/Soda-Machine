@@ -8,9 +8,9 @@ namespace Soda_Machine_Proj
 {
     class Dime : Coin
     {
-        public Dime(double Value, string name)
+        public Dime()
         {
-            Value = 0.10;
+            value = 0.10;
             this.name = "Dime";
 
         }

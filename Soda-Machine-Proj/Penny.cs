@@ -9,9 +9,9 @@ namespace Soda_Machine_Proj
     class Penny : Coin
     {
 
-        public Penny(double Value,string name)
+        public Penny()
         {
-            Value = 0.01;
+            value = 0.01;
             this.name = "Penny";
 
         }
