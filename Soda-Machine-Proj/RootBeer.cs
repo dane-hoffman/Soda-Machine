@@ -9,5 +9,12 @@ namespace Soda_Machine_Proj
     class RootBeer : Can
     {
 
+
+        public RootBeer(double Cost, string name)
+        {
+            Cost = 0.60;
+            this.name = "Rootbeer";
+
+        }
     }
 }

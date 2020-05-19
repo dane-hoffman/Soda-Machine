@@ -8,8 +8,23 @@ namespace Soda_Machine_Proj
 {
     public abstract class Can
     {
-        public double Cost;
-        private double cost;
+
+        private double cost;//field
+        public double Cost//property
+        {
+            get
+            {
+                return cost;
+            }
+        }
+
         public string name;
+
+
+
+        public Can()
+        {
+            this.cost = Cost;
+        }
     }
 }
