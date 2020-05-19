@@ -10,5 +10,12 @@ namespace Soda_Machine_Proj
     {
         public List<Coin> coinsInWallet;
         
+
+
+        public Wallet()
+        {
+
+
+        }
     }
 }

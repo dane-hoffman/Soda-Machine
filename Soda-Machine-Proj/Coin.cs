@@ -23,8 +23,10 @@ namespace Soda_Machine_Proj
 
 
         
-        public Coin(double Value, string name)
+        public Coin()
         {
+            this.value = Value;
+
 
 
         }

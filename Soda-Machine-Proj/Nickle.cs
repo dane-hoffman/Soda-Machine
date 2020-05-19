@@ -9,5 +9,11 @@ namespace Soda_Machine_Proj
     class Nickle : Coin
     {
 
+        public Nickle(double Value, string name)
+        {
+            Value = 0.05;
+            this.name = "Nickle";
+
+        }
     }
 }

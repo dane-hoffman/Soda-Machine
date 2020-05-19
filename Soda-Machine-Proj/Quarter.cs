@@ -9,5 +9,14 @@ namespace Soda_Machine_Proj
     class Quarter : Coin
     {
 
+
+
+        public Quarter(double Value, string name)
+        {
+            Value = 0.25;
+            this.name = "Quarter";
+
+        }
+
     }
 }
