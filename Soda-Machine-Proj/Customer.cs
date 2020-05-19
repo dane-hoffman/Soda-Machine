@@ -11,5 +11,13 @@ namespace Soda_Machine_Proj
         public Wallet wallet;
         public Backpack backpack;
 
+
+        public Customer()
+        {
+            this.wallet = new Wallet();
+            this.backpack = new Backpack();
+
+
+        }
     }
 }

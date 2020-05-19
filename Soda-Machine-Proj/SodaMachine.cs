@@ -16,6 +16,10 @@ namespace Soda_Machine_Proj
         public SodaMachine()
         {
             List<Coin> register = new List<Coin>
+            {
+
+
+            }
 
         }
     }
