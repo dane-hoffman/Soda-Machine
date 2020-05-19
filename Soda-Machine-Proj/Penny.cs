@@ -9,5 +9,10 @@ namespace Soda_Machine_Proj
     class Penny : Coin
     {
 
+        public Penny(0.01,"Penny")
+        {
+
+        }
+
     }
 }

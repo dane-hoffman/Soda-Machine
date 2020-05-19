@@ -23,6 +23,13 @@ namespace Soda_Machine_Proj
 
 
         
+        public Coin(double Value, string name)
+        {
+
+
+        }
+
+
 
     }
 }
