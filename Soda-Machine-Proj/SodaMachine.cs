@@ -11,5 +11,12 @@ namespace Soda_Machine_Proj
         public List<Coin> regsiter;
         public List<Can> inventory;
 
+
+
+        public SodaMachine()
+        {
+            List<Coin> register = new List<Coin>
+
+        }
     }
 }

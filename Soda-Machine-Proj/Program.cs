@@ -10,6 +10,7 @@ namespace Soda_Machine_Proj
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
