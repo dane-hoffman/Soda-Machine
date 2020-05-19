@@ -8,5 +8,6 @@ namespace Soda_Machine_Proj
 {
     class Backpack
     {
+        public List<Can> cansInBackpack;
     }
 }

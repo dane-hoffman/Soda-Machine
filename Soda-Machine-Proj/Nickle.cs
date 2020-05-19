@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Soda_Machine_Proj
 {
-    class Nickle
+    class Nickle : Coin
     {
+
     }
 }

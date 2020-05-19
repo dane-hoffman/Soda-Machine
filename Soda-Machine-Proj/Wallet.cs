@@ -8,5 +8,7 @@ namespace Soda_Machine_Proj
 {
     class Wallet
     {
+        public List<Coin> coinsInWallet;
+        
     }
 }

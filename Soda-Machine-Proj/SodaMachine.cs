@@ -8,5 +8,8 @@ namespace Soda_Machine_Proj
 {
     class SodaMachine
     {
+        public List<Coin> regsiter;
+        public List<Can> inventory;
+
     }
 }
