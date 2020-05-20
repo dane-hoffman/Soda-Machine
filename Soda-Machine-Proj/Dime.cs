@@ -12,6 +12,8 @@ namespace Soda_Machine_Proj
         {
             value = 0.10;
             this.name = "Dime";
+            Coin dime = new Dime();
+
 
         }
 

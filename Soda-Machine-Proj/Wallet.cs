@@ -16,10 +16,7 @@ namespace Soda_Machine_Proj
         {
             coinsInWallet = new List<Coin>();
             {
-                Coin penny = new Penny(); 
-                Coin nickle = new Nickle(); 
-                Coin dime = new Dime(); 
-                Coin quarter = new Quarter(); 
+
                 
 
             }

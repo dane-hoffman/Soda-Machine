@@ -13,6 +13,7 @@ namespace Soda_Machine_Proj
         {
             value = 0.05;
             this.name = "Nickle";
+            Coin nickle = new Nickle();
 
         }
 
