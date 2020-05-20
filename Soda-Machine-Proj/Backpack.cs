@@ -13,6 +13,13 @@ namespace Soda_Machine_Proj
 
 
 
+        public Backpack()
+        {
+            cansInBackpack = new List<Can>();
+
+
+        }
+
 
 
 
