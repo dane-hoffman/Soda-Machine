@@ -18,19 +18,31 @@ namespace Soda_Machine_Proj
         {
             register = new List<Coin>();
             {
-                Penny penny = new Penny();
-                Nickle nickle = new Nickle();
-                Dime dime = new Dime();
-                Quarter quarter = new Quarter();
+                for(int i = 0; i < 50; i++)   
+                {
+                    Penny penny = new Penny();
+                    register.Add(penny);
+                }
 
-                register.Add(penny);
-                register.Add(nickle);
-                register.Add(dime);
-                register.Add(quarter);
+                for(int i = 0; i < 20; i++)
+                {
+                    Nickle nickle = new Nickle();
+                    register.Add(nickle);
+                }
+                
+                for(int i = 0; i < 10; i++)
+                {
+                    Dime dime = new Dime();
+                    register.Add(dime);
+                }
+
+                for(int i = 0; i < 20; i++)
+                {
+                    Quarter quarter = new Quarter();
+
+                }
 
             }
-
-
 
 
             inventory = new List<Can>();
@@ -46,6 +58,9 @@ namespace Soda_Machine_Proj
 
 
             }
+
+
+
 
 
         }
