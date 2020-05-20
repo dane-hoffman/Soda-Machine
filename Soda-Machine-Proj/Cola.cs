@@ -9,9 +9,9 @@ namespace Soda_Machine_Proj
     class Cola : Can
     {
 
-        public Cola(double Cost, string name)
+        public Cola()
         {
-            Cost = 0.35;
+            cost = 0.35;
             this.name = "Cola";
 
         }

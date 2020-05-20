@@ -9,7 +9,7 @@ namespace Soda_Machine_Proj
     public abstract class Can
     {
 
-        private double cost;//field
+        protected double cost;//field
         public double Cost//property
         {
             get

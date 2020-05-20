@@ -10,9 +10,9 @@ namespace Soda_Machine_Proj
     {
 
 
-        public RootBeer(double Cost, string name)
+        public RootBeer()
         {
-            Cost = 0.60;
+            cost = 0.60;
             this.name = "Rootbeer";
 
         }
