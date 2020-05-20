@@ -47,13 +47,31 @@ namespace Soda_Machine_Proj
 
             inventory = new List<Can>();
             {
-                Cola cola = new Cola();
-                OrangeSoda orangeSoda = new OrangeSoda();
-                RootBeer rootBeer = new RootBeer();
+                for(int i = 0; i < 10; i++)
+                {
+                    Cola cola = new Cola();
+                    inventory.Add(cola);
+                }                
+                
+                for(int i = 0; i < 10; i++)
+                {
+                    OrangeSoda orangeSoda = new OrangeSoda();
+                    inventory.Add(orangeSoda);
+                }                
+                
+                for(int i = 0; i < 10; i++)
+                {
+                    RootBeer rootBeer = new RootBeer();
+                    inventory.Add(rootBeer);
+                }
 
-                inventory.Add(cola);
-                inventory.Add(orangeSoda);
-                inventory.Add(rootBeer);
+                
+                
+                
+
+                
+                
+      
 
 
 
