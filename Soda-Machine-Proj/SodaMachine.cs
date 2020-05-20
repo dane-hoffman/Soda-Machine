@@ -67,12 +67,6 @@ namespace Soda_Machine_Proj
 
                 
                 
-                
-
-                
-                
-      
-
 
 
             }
