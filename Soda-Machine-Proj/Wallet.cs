@@ -16,15 +16,30 @@ namespace Soda_Machine_Proj
         {
             coinsInWallet = new List<Coin>();
             {
-                Penny penny = new Penny();
-                Nickle nickle = new Nickle();
-                Dime dime = new Dime();
-                Quarter quarter = new Quarter();
+                for (int i = 0; i < 50; i++)
+                {
+                    Penny penny = new Penny();
+                    coinsInWallet.Add(penny);
+                }
 
-                coinsInWallet.Add(penny);
-                coinsInWallet.Add(nickle);
-                coinsInWallet.Add(dime);
-                coinsInWallet.Add(quarter);
+                for (int i = 0; i < 20; i++)
+                {
+                    Nickle nickle = new Nickle();
+                    coinsInWallet.Add(nickle);
+                }
+
+                for (int i = 0; i < 10; i++)
+                {
+                    Dime dime = new Dime();
+                    coinsInWallet.Add(dime);
+                }
+
+                for (int i = 0; i < 20; i++)
+                {
+                    Quarter quarter = new Quarter();
+                    coinsInWallet.Add(quarter);
+                }
+
 
   
             }

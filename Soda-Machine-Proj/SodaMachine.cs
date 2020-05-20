@@ -39,7 +39,7 @@ namespace Soda_Machine_Proj
                 for(int i = 0; i < 20; i++)
                 {
                     Quarter quarter = new Quarter();
-
+                    register.Add(quarter);
                 }
 
             }
