@@ -9,24 +9,31 @@ namespace Soda_Machine_Proj
 {
     class SodaMachine
     {
-        public List<Coin> sodaMachineRegister;
+        public List<Coin> register;
         public List<Can> inventory;
 
 
 
         public SodaMachine()
         {
-            sodaMachineRegister = new List<Coin>()
+            register = new List<Coin>();
             {
-                Coin penny = new Penny();
+                Penny penny = new Penny();
+                Nickle nickle = new Nickle();
+                Dime dime = new Dime();
+                Quarter quarter = new Quarter();
 
+                register.Add(penny);
+                register.Add(nickle);
+                register.Add(dime);
+                register.Add(quarter);
 
             }
 
 
 
 
-            List<Can> inventory = new List<Can>()
+            inventory = new List<Can>();
             {
 
 

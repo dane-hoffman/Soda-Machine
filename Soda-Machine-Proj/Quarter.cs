@@ -15,7 +15,7 @@ namespace Soda_Machine_Proj
         {
             value = 0.25;
             this.name = "Quarter";
-            Coin quarter = new Quarter();
+
 
         }
 
