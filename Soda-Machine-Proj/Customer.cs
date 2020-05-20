@@ -10,12 +10,13 @@ namespace Soda_Machine_Proj
     {
         public Wallet wallet;
         public Backpack backpack;
-
+        public List<Coin> coinsInHand;
 
         public Customer()
         {
             this.wallet = new Wallet();
             this.backpack = new Backpack();
+            coinsInHand = new List<Coin>();
 
 
         }
